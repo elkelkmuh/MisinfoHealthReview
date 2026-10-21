@@ -1,0 +1,47 @@
+Generative AI, Health Misinformation, and Medical Deepfakes
+Supporting literature-search materials for:
+Generative AI, Health Misinformation, and Medical Deepfakes: Implications for Diagnostic Safety and Clinical Practice—A Narrative Review
+
+Authors: İsmail Baydili, Burak Tasci, Sengul Dogan, and Turker Tuncer
+Manuscript: Submitted to Diagnostics (manuscript ID: diagnostics-4623860)
+Overview
+This repository accompanies a narrative review of generative artificial intelligence (AI), health misinformation, medical deepfakes, and their implications for diagnostic safety and clinical practice. The review considers how misleading health claims, fabricated evidence, and impersonated professional identities can create apparent credibility and potentially affect health-related decisions.
+
+The review distinguishes three related but analytically separate risk pathways:
+1. Intentional synthetic disinformation: deliberately misleading health content generated or distributed using AI.
+2. Unintentional model error: inaccurate, incomplete, or hallucinated outputs arising during patient-facing or clinician-facing use.
+3. Synthetic or manipulated diagnostic evidence: generated or altered material presented as authentic clinical evidence.
+These pathways are considered across textual, visual, audio, video, and multimodal content. The synthesis addresses credibility, verification, clinical error, referral safety, evidence provenance, and mitigation approaches.
+Review methodology
+The manuscript reports a narrative literature review informed by the SANRA quality criteria. Searches were conducted in the Web of Science Core Collection and Scopus, using combinations of terms related to generative AI, large language models, misinformation, disinformation, hallucinations, deepfakes, synthetic media, clinical and diagnostic safety, and verification or governance. Complementary searches addressed specific modalities and clinical contexts.
+
+The evidence was examined by content modality, study purpose, misinformation type, health domain, and study design. This is a narrative synthesis, not a systematic review or meta-analysis; the repository should not be interpreted as documenting an exhaustive or PRISMA-compliant selection process.
+Repository contents
+The accompanying archive, Tarama verileri(1).rar, contains a directory named Tarama verileri/ with 47 files comprising bibliographic/search exports in .csv, .txt, and .xlsx formats. The archive includes filenames such as scopus1.csv, wos1.txt, and wos scopus.xlsx, alongside numbered export files.
+
+These materials are provided as supporting literature-search records. The numbered filenames are retained as supplied; their precise search strings, dates, filters, and relationship to individual stages of screening are not established by the filenames alone. The files should therefore not be treated as a verified final included-study dataset without additional documentation.
+Suggested GitHub layout
+.
+├── README.md
+└── Tarama verileri(1).rar
+The archive may alternatively be unpacked into a search-records/ directory, retaining the original filenames. Before public release, inspect all exports for personal data, database licensing restrictions, and any records that should not be redistributed.
+Research questions
+The review addresses five principal questions:
+- How does generative AI change the production of misleading health claims, supporting evidence, and source identities?
+- How do identity, expertise cues, message format, and platform context influence credibility and verification?
+- What evidence links exposure or AI use to health-related beliefs, behavior, diagnostic decisions, and clinical harm?
+- What are the strengths and limitations of detection, verification, communication interventions, and governance?
+- Through which pathways can generative AI and synthetic medical content affect diagnostic safety, and how should those risks be clinically validated?
+Scope and limitations
+The review differentiates technical generation capability, content dissemination, perceived credibility, behavioral outcomes, and demonstrated clinical harm. Evidence at one stage does not establish effects at another. Findings from individual models, prompts, clinical tasks, or experiments should not be generalized to all generative AI systems or real-world healthcare settings.
+
+The repository does not provide a trained diagnostic model, clinical software, or a validated deepfake detector. It is intended for scholarly transparency and further research, not clinical decision-making.
+Citation
+Until a final bibliographic record is available, please cite the manuscript using its title and author list:
+Baydili, İ., Tasci, B., Dogan, S., & Tuncer, T. Generative AI, Health Misinformation, and Medical Deepfakes: Implications for Diagnostic Safety and Clinical Practice—A Narrative Review. Manuscript submitted to Diagnostics.
+
+Do not use a placeholder DOI as a published DOI. This section should be updated after publication with the definitive journal citation and DOI.
+Data availability and reuse
+The files contain bibliographic/search-export material, not patient-level clinical data. Availability in this repository does not imply that third-party bibliographic metadata, abstracts, or database exports are freely redistributable under an open license. Users are responsible for complying with applicable source-database terms and citation requirements.
+
+A repository license has not yet been specified. Reuse permissions should be clarified before attaching an open-source or open-data license.
